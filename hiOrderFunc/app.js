@@ -52,3 +52,13 @@ const myMath = {
         return num * this.PI;
     }
 }
+
+// thisについて
+const cat = {
+    name: 'タマ',
+    color: 'grey',
+    breed: 'アメリカンショートヘア',
+    cry() {
+        console.log(this.name);
+    }
+}

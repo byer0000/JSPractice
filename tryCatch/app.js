@@ -3,4 +3,4 @@ try {
 } catch {
     console.log('エラー');
 }
-console.log('実行');
+console.log('実行');rr

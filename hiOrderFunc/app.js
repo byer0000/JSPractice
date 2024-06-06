@@ -62,3 +62,15 @@ const cat = {
         console.log(this.name);
     }
 }
+
+const movie = {
+    name: 'コナン',
+    kind: 'アニメ',
+    genre: 'ミステリー',
+    introduction() {
+        console.log(this);
+        console.log(`${this.name}です`);
+    }
+}
+
+const movie2 = movie.introduction;
